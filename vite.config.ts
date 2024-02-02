@@ -6,5 +6,6 @@ export default defineConfig({
   resolve: {
     alias: [{ find: '@', replacement: '/src' }]
   },
-  plugins: [react()]
+  plugins: [react()],
+  base: '/weather-app/'
 })
